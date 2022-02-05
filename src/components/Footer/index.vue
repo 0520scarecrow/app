@@ -42,16 +42,41 @@
 				<div class="text">夺宝岛</div>
 				<div class="text">DIY装机</div>
 				<div class="text">延保服务</div>
-				<div class="text">京东E卡</div>
-				<div class="text">京东通信</div>
+				<div class="text">尚品汇E卡</div>
+				<div class="text">尚品汇通信</div>
 			</div>
 			<div class="area">
-				<div class="title">京东自营覆盖区县</div>
-				<div class="text">京东已向全国2661个区县提供自营配送服务，支持货到付款，pos机刷卡和售后上门服务</div>
+				<div class="title">尚品汇覆盖区县</div>
+				<div class="text">尚品汇已向全国2661个区县提供自营配送服务，支持货到付款，pos机刷卡和售后上门服务</div>
 			</div>
 		</div>
 		<div class="bottom">
-			
+			<div class="bottom-main">
+				<div class="main-text">关于我们</div>
+				<div class="main-text">联系我们</div>
+				<div class="main-text">联系客服</div>
+				<div class="main-text">合作招商</div>
+				<div class="main-text">商家帮助</div>
+				<div class="main-text">营销中心</div>
+				<div class="main-text">手机尚品汇</div>
+				<div class="main-text">友情链接</div>
+				<div class="main-text">销售联盟</div>
+				<div class="main-text">尚品汇社区</div>
+				<div class="main-text">风险监测</div>
+				<div class="main-text">隐私政策</div>
+				<div class="main-text">尚品汇公益</div>
+				<div class="main-text">English Site</div>
+				<div class="main-text">Media & IR</div>
+			</div>
+			<div class="licence">
+				<div class="licence-block">
+					<div class="licence-text">出版物经营许可证</div>
+					<div class="licence-text">地址：北京市昌平区宏福科技园综合楼6层</div>
+				</div>
+				<div class="licence-block">
+					<div class="licence-text">京ICP备19006430号</div>
+				</div>
+			</div>
 		</div>
 	</div>
 </template>
