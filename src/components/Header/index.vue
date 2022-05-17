@@ -26,14 +26,14 @@
 		<!-- 头部第二行  搜索区域 -->
 		<div class="bottom">
 			<h1 class="logoArea">
-				<a href="###" class="logo" title="尚品汇" target="_blank">
+				<router-link class="logo" to="/home">
 					<img src="../../assets/logo.png" alt="" >
-				</a>
+				</router-link>
 			</h1>
 			<div class="searchArea">
 				<form action="###" class="searchForm">
 					<input type="text" id="autocomplete" class="input-error input-xxlarge" value="" />
-					<button class="sui-btn btn-xlarge btn-danger" type="button">搜索</button>
+					<button class="sui-btn btn-xlarge btn-danger" type="button" @click="goSearch">搜索</button>
 					<div class="shoppingCart">
 						我的购物车
 					</div>
@@ -55,12 +55,11 @@
 					<a href="###">优惠券</a>
 					<a href="###">PLUS会员</a>
 					<a href="###">品牌闪购</a>
-					<a href="###">拍卖</a>
-					<a href="###">京东家电</a>
-					<a href="###">京东超市</a>
-					<a href="###">京东生鲜</a>
-					<a href="###">京东国际</a>
-					<a href="###">京东云</a>
+					<a href="###">尚品汇家电</a>
+					<a href="###">尚品汇超市</a>
+					<a href="###">尚品汇生鲜</a>
+					<a href="###">尚品汇国际</a>
+					<a href="###">尚品汇云</a>
 				</div>
 			</div>
 			<div class="recommendImg">
@@ -74,6 +73,15 @@
 </template>
 
 <script>
+	export default {
+		name : "",
+		methods: {
+			goSearch() {
+				// 搜索按钮的回调函数：需要向search路由进行跳转
+				this.$router.push('/search')
+			}
+		}
+	}
 </script>
 
 <style scoped="scoped">

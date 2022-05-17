@@ -87,6 +87,7 @@
 <style scoped="scoped">
 	*{
 		margin: 0px; padding: 0px;
+		background-color: #F4F4F4;
 	}
 	.top{
 		height: 200px; background-color: #f4f4f4; display: flex; justify-content: space-around; border-top: 1px solid #dedede; border-bottom: 1px solid #dedede;
@@ -99,5 +100,34 @@
 	}
 	.top .area {
 		width: 184px;
+	}
+	.bottom{
+		margin-top: 16px;
+	}
+	.bottom .bottom-main{
+		display: flex;
+		justify-content: center;
+	}
+	.bottom-main .main-text{
+		height: 12px; border-right: 1px solid #e1e1e1; padding: 0 10px;
+		font-size: 12px; font-weight: 400; line-height: 12px; color: #666666;
+	}
+	.bottom-main .main-text:last-child{
+		border: none;
+	}
+	.bottom .licence{
+		margin-top: 16px;
+	}
+	.licence .licence-block{
+		margin-top: 8px;
+		display: flex;
+		justify-content: center;
+	}
+	.licence-block .licence-text{
+		height: 14px; font-size: 14px; line-height: 14px; border-right: 1px solid #e1e1e1; padding: 0 10px;
+		color: #999999;
+	}
+	.licence-block .licence-text:last-child{
+		border: none;
 	}
 </style>
